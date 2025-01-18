@@ -67,7 +67,7 @@ function App() {
       <Navbar isScrolled={isScrolled} />
       <Hero onPlay={() => handleMovieClick({
         title: "Stranger Things",
-        thumbnail: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=3000"
+        thumbnail: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=3000"
       })} />
       
       <div className="relative pb-20 -mt-24 z-10">
