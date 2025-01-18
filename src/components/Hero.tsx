@@ -27,13 +27,13 @@ const Hero = ({ onPlay }: HeroProps) => {
             loop
             muted={isMuted}
             className="w-full h-full object-cover"
-            poster="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0"
+            poster="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=3000"
           >
             <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" />
           </video>
         ) : (
           <img
-            src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0"
+            src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=3000"
             alt="Hero"
             className="w-full h-full object-cover"
           />

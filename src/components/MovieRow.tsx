@@ -76,7 +76,7 @@ const MovieRow = memo(({ title, movies, onMovieClick }: MovieRowProps) => {
               <div className={`w-full h-full rounded-sm overflow-hidden 
                 ${!loadedImages.has(movie.id) ? 'image-loading' : ''}`}>
                 <img
-                  src={movie.thumbnail}
+                  src={movie.thumbnail.replace('q=80&w=3000', 'q=80&w=4000')}
                   alt={movie.title}
                   className={`rounded-sm object-cover md:rounded w-full h-full 
                     transition-all duration-300 ${
